@@ -4,6 +4,7 @@ This test demonstrates what appears to be a bug in the latest version (2.34) of 
 
 ## To run
 
+    $ npm install
     $ mocha
 
 ## Tested on
@@ -28,6 +29,6 @@ The key line is the right-click:
 
 ### Results
 
-* Firefox: brings up the context menu as expected
-* Chrome: no effect, doesn't bring up the context menu
-* Safari: errors out with "Unknown command: mouseMoveTo" (looks like a repro of [issue 5793](https://code.google.com/p/selenium/issues/detail?id=5793))
+* Firefox 23.0: brings up the context menu as expected
+* Chrome 28.0.1500.95: no effect, doesn't bring up the context menu
+* Safari 6.0.5 (8536.30.1): errors out with "Unknown command: mouseMoveTo" (looks like a repro of [issue 5793](https://code.google.com/p/selenium/issues/detail?id=5793))
