@@ -1,4 +1,4 @@
-# Selenium standalone server bug repro
+# Repro for [Selenium bug #6056](https://code.google.com/p/selenium/issues/detail?id=6056)
 
 This test demonstrates what appears to be a bug in the latest version (2.34) of the Selenium standalone server, with some browsers.
 
