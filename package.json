@@ -1,0 +1,15 @@
+{
+  "name": "webdriver-bug",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jasoncrawford/webdriver-bug.git"
+  },
+  "dependencies": {
+    "mocha": "~1.10.0",
+    "selenium-webdriver": "~2.33.0"
+  },
+  "engines": {
+    "node": "0.10.9",
+    "npm": "1.2.24"
+  }
+}
